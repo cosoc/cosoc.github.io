@@ -1,0 +1,12 @@
+.idea
+target
+/com.xuanka.iml
+*.log
+.DS_Store
+.classpath
+.project
+bin
+*.log
+.settings
+.swp
+.attach_*
