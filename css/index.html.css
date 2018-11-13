@@ -1,0 +1,160 @@
+﻿@charset "utf-8";
+/*-----------------全局控制-------------*/
+
+body {
+    margin: 0;
+}
+
+
+header {
+    height: 50px;
+    background-color: #000;
+}
+
+
+#mainHeader li {
+    list-style-type:none;
+}
+
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainHeader > nav:nth-of-type(1) {
+    height: 50px;
+   /* border: 1px solid red;*/
+    background-color: #3C8DBC;
+}
+
+/*-------------详细控制----------*/
+
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(1){
+    height:50px;
+    float: left;
+   /* border: 1px solid red;*/
+}
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1){
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) >  li{
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    float: left;
+}
+#mainHeader  > nav:nth-of-type(1) > div:nth-of-type(1) ul:nth-of-type(1) > li:hover {
+    background-color: #367FA9;
+}
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) >  li:nth-of-type(1){
+    height:50px;
+    width: 50px;
+    padding: 0;
+    background-color: #367FA9;
+    /*border: 1px solid yellow;*/
+}
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) >  li:nth-of-type(2){
+    height:50px;
+    width: 50px;
+    /*border: 1px solid yellow;*/
+}
+
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(2) {
+    height: 50px;
+    width: 376px;
+    float: right;
+    /*border: 1px solid yellow;*/
+}
+
+#mainHeader  > nav:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li {
+    position: relative;
+    float: left;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#mainHeader  > nav:nth-of-type(1) > div:nth-of-type(2) ul:nth-of-type(1) > li:hover {
+    background-color: #367FA9;
+}
+
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) {
+    color: #ffffff;
+}
+
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(2)> ul:nth-of-type(1) > li:nth-of-type(4) {
+    width: 164px;
+    padding-left: 10px;
+    text-align: left;
+   /* border:1px solid yellow;*/
+
+}
+
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-child(4) > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+/*消息标签设置*/
+#mainHeader > nav:nth-of-type(1) >  div:nth-of-type(2) > ul:nth-of-type(1) > li > div:nth-of-type(1) {
+    /*重置margin和padding等样式*/
+    margin: 0px;
+    padding: 0px;
+
+    /*设置尺寸*/
+    height: 15px;
+    line-height: 15px;
+
+    /*设定自身位置*/
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    z-index: 1;
+
+    /*结构设置*/
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    /*设置字体*/
+    font-size: 10px;
+    font-weight: bold;    
+
+    /*设置颜色*/
+    color: #ffffff;
+    background-color: green;
+
+    /*设置圆角*/
+    border-radius: 2px;
+
+    /*阴影*/
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 1px rgba(0, 0, 0, 0.12);
+}
+
+/*每个消息标签颜色*/
+#mainHeader > nav:nth-of-type(1) >  div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1){
+    background-color: green;
+}
+#mainHeader > nav:nth-of-type(1) > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(1){
+    background-color: #DD4B39;
+}
+#mainHeader > nav:nth-of-type(1) >  div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(3) > div:nth-of-type(1){
+    background-color: #F39C12;
+}
+
+#mainHeader > nav:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-child(4) > span {
+    margin-left: 10px;
+    /*border: 1px solid yellow;*/
+}
+
+
