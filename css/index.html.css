@@ -6,7 +6,8 @@ body {
 }
 
 
-header {
+
+#mainHeader {
     height: 50px;
     background-color: #000;
 }

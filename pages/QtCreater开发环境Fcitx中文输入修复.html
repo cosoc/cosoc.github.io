@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Linux Ddebian QtCreater开发环境Fcitx无法输入中文解决方案</title>
+</head>
+	<body>
+		<p>
+			由于qt的版本迭代问题,以及Debian的官方软件库没有及时更新问题<br />
+			debian9以前的版本以及到测试版本都没有可用的fcitx-frontend-qt5软件包<br />
+			这个软件包中有个重要的动态库已经过时libfcitxplatforminputcontextplugin.so<br />
+			我们需要编译他<a href="http://github.com/fcitx/fcitx-qt5.git">fcitx-qt5</a>
+			然后覆盖对应的动态!我这里有一份编译好的动态是在Qt5.12.2的环境下编译的<br />
+			你可以在下载覆盖文件!如果手动编译你需要搭建编译环境还要设置一定的环境变量!<br />
+			你可以临时使用等待Debian社区更新软件包!<br />
+			resources/Linux/Debian/Qt <br />
+			资源目录下有三个文件下载后管理员执行命令问题解决<br />
+		</p>
+	</body>
+</html>
